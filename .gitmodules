@@ -1,0 +1,3 @@
+[submodule "HW3"]
+	path = HW3
+	url = git@github.com:synergy1095/cs4540HW.git
