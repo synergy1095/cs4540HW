@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- filter menu buttons -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_none"
+        android:orderInCategory="1"
+        android:title="@string/none"/>
+    <item
+        android:id="@+id/menu_misc"
+        android:orderInCategory="2"
+        android:title="@string/misc"/>
+    <item
+        android:id="@+id/menu_acad"
+        android:orderInCategory="3"
+        android:title="@string/academic"/>
+    <item
+        android:id="@+id/menu_work"
+        android:orderInCategory="4"
+        android:title="@string/work"/>
+    <item
+        android:id="@+id/menu_rec"
+        android:orderInCategory="5"
+        android:title="@string/recreational"/>
+</menu>

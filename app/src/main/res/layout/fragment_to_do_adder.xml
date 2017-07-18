@@ -16,6 +16,14 @@
         android:layout_marginBottom="10dp"
         android:hint="Enter To Do" />
 
+    <!-- added spinner widget for category selection -->
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/categories_prompt"
+        android:entries="@array/categories"/>
+
     <DatePicker
         android:id="@+id/datePicker"
         android:layout_width="match_parent"

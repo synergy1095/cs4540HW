@@ -1,3 +1,18 @@
 <resources>
+    <!-- added category strings, array items are linked to the non-array strings -->
+
     <string name="app_name">ToDoList</string>
+    <string name="categories_prompt">Select Category</string>
+    <string name="none">No Filter</string>
+    <string name="misc">Misc</string>
+    <string name="academic">Academic</string>
+    <string name="work">Work</string>
+    <string name="recreational">Recreational</string>
+    <string-array name="categories">
+        <item>@string/misc</item>
+        <item>@string/academic</item>
+        <item>@string/work</item>
+        <item>@string/recreational</item>
+    </string-array>
+
 </resources>
