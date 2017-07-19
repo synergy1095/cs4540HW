@@ -35,16 +35,11 @@
             android:textSize="14dp" />
     </LinearLayout>
 
-    <!-- empty view pushes categories to the far right -->
-    <View
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_weight="0.2" />
-
     <!-- new textview for category display -->
     <TextView
         android:id="@+id/item_category"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center" />
+        android:gravity="right"
+        android:layout_weight="0.2" />
 </LinearLayout>
