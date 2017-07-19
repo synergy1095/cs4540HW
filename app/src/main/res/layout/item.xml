@@ -3,45 +3,48 @@
 <!-- changed outside layout to horizontal for new format -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal" android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:padding="10dp"
     android:id="@+id/linLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:padding="10dp"
     android:weightSum="1">
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="0.7"
+        android:layout_weight="0.8"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
             android:ellipsize="end"
             android:maxLines="1"
-            android:text="To do description"/>
+            android:text="To do description"
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/dueDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
-            android:text="06-04-2017"/>
+            android:text="06-04-2017"
+            android:textSize="14dp" />
     </LinearLayout>
 
     <!-- empty view pushes categories to the far right -->
     <View
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_weight="0.3"/>
+        android:layout_weight="0.2" />
 
     <!-- new textview for category display -->
     <TextView
         android:id="@+id/item_category"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"/>
+        android:gravity="center" />
 </LinearLayout>

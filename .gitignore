@@ -9,3 +9,4 @@
 .externalNativeBuild
 android-profile
 *.rawproto
+*.jar
